@@ -8,6 +8,26 @@
 
 Just a simple no dependency helm values validator script.
 
+## Usage
+
+This Repo is still in development and usage of the script can change rapidly.
+
+### Just the script
+
+```bash
+python validate.dependency
+```
+
+### As the Package
+
+To better maintain, I converted the script also as a python package.
+
+You need to install [uv](https://docs.astral.sh/uv/).
+
+```bash
+uv run helm-value-validator -h
+```
+
 - **Github repository**: <https://github.com/makanu/helm-value-validator/>
 - **Documentation** <https://makanu.github.io/helm-value-validator/>
 
